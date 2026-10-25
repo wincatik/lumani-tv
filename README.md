@@ -5,7 +5,7 @@ Android TV / Google TV client for AI chats. Pair the TV with the Lumani mobile a
 ## APKs
 
 - **[Lumani-TV-release.apk](apk/Lumani-TV-release.apk)** — signed release build for installation on Android TV / Google TV.
-- **[Lumani-TV-release-unsigned.apk](apk/Lumani-TV-release-unsigned.apk)** — unsigned release build for testing or custom signing.
+- **[Lumani-Phone-release.apk](apk/Lumani-Phone-release.apk)** — release build of the Lumani mobile companion app.
 
 Package: `com.lumani.tv`  
 Version: `1.0` (`versionCode 1`)  
@@ -13,7 +13,7 @@ Minimum Android: `8.0` / API 26
 
 ## Installation
 
-Download the signed APK and install it on the TV from USB or with ADB:
+Download the TV APK and install it on the TV from USB or with ADB:
 
 ```bash
 adb install Lumani-TV-release.apk
