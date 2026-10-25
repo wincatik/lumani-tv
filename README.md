@@ -20,3 +20,8 @@ adb install Lumani-TV-release.apk
 ```
 
 The application requires network access and a Lumani mobile app profile with an API endpoint, model, and API key.
+
+
+## Website
+
+Open the landing page: [wincatik.github.io/lumani-tv](https://wincatik.github.io/lumani-tv/)

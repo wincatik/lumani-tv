@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#161514" />
+    <meta name="description" content="Lumani — AI-помощник для телевизора. Скачайте приложение для телевизора или телефона." />
+    <meta property="og:title" content="Lumani — AI-помощник для телевизора" />
+    <meta property="og:description" content="Чаты с вашим AI на большом экране. Скачайте Lumani для телевизора или телефона." />
+    <meta property="og:image" content="assets/lumani-mark.svg" />
+    <link rel="icon" href="assets/lumani-mark.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Lumani — AI-помощник для телевизора</title>
+  </head>
+  <body>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="grid-lines" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Lumani — на главную">
+        <span class="brand-dot"></span>
+        <span>LUMANI</span>
+      </a>
+      <span class="header-status"><span class="status-dot"></span> Ваш AI на большом экране</span>
+    </header>
+
+    <main class="hero">
+      <section class="hero-copy" aria-labelledby="page-title">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Для телевизора и телефона</p>
+        <h1 id="page-title">AI-помощник<br /><em>для телевизора</em></h1>
+        <p class="intro">Lumani переносит умный чат на большой экран. Подключите свой профиль по QR-коду и общайтесь с любимой моделью с дивана.</p>
+      </section>
+
+      <section class="download-stage" aria-label="Скачать Lumani">
+        <div class="orbit orbit-large" aria-hidden="true"></div>
+        <div class="orbit orbit-small" aria-hidden="true"></div>
+        <div class="app-icon-wrap">
+          <div class="icon-halo"></div>
+          <img class="app-icon" src="assets/lumani-mark.svg" alt="Иконка приложения Lumani" />
+        </div>
+        <div class="wordmark">Lumani</div>
+        <p class="tagline">Спокойный AI. Большой экран. Свой ритм.</p>
+
+        <div class="download-actions">
+          <a class="download-button primary" href="apk/Lumani-TV-release.apk" download="Lumani-TV-release.apk" data-download="телевизор">
+            <span class="button-icon" aria-hidden="true">TV</span>
+            <span class="button-copy"><strong>Скачать на телевизор</strong><small>Android TV / Google TV · APK</small></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="download-button secondary" href="apk/Lumani-Phone-release.apk" download="Lumani-Phone-release.apk" data-download="телефон">
+            <span class="button-icon phone-icon" aria-hidden="true">↕</span>
+            <span class="button-copy"><strong>Скачать на телефон</strong><small>Мобильное приложение · APK</small></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <p class="download-note"><span class="lock" aria-hidden="true">⌁</span> Прямое скачивание · без регистрации</p>
+        <p class="download-feedback" data-feedback role="status" aria-live="polite"></p>
+      </section>
+
+      <aside class="feature-rail" aria-label="Возможности Lumani">
+        <div class="feature"><span class="feature-number">01</span><span><strong>QR-подключение</strong><small>Профиль с телефона на ТВ</small></span></div>
+        <div class="feature"><span class="feature-number">02</span><span><strong>Своя модель</strong><small>OpenAI-compatible или Anthropic</small></span></div>
+        <div class="feature"><span class="feature-number">03</span><span><strong>Ваши чаты</strong><small>История остаётся на устройстве</small></span></div>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Lumani</span>
+      <span class="footer-rule"></span>
+      <span>Сделано для тихих больших идей</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
